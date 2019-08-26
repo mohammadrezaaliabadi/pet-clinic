@@ -19,7 +19,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="data" options="-parameters" />
-      <module name="pet-clinic" options="-parameters" />
+      <module name="pet-clinic" options="" />
       <module name="web" options="-parameters" />
     </option>
   </component>
