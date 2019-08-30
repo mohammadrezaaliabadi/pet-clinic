@@ -19,13 +19,9 @@ public class VetServiceMap extends AbstractMapService<Vet,Long> implements com.c
 
     @Override
     public Vet save(Vet object) {
-        return save(object.getId(),object);
+        return super.save(object);
     }
 
-    @Override
-    Vet save(Long aLong, Vet object) {
-        return super.save(aLong, object);
-    }
 
     @Override
     public void delete(Vet object) {
