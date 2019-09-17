@@ -1,9 +1,9 @@
 package com.company.petclinic.repository;
 
-import com.company.petclinic.model.Pet;
+import com.company.petclinic.model.Visit;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface VisitRepository extends CrudRepository<Pet,Long> {
+public interface VisitRepository extends CrudRepository<Visit,Long> {
 }
