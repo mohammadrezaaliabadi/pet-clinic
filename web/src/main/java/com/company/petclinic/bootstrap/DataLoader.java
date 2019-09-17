@@ -1,10 +1,10 @@
 package com.company.petclinic.bootstrap;
 
 import com.company.petclinic.model.*;
-import com.company.petclinic.services.OwnerService;
-import com.company.petclinic.services.PetTypeService;
-import com.company.petclinic.services.SpecialityService;
-import com.company.petclinic.services.VetService;
+import com.company.petclinic.service.OwnerService;
+import com.company.petclinic.service.PetTypeService;
+import com.company.petclinic.service.SpecialityService;
+import com.company.petclinic.service.VetService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

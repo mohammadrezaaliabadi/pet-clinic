@@ -1,10 +1,10 @@
-package com.company.petclinic.services.springdatajpa;
+package com.company.petclinic.service.springdatajpa;
 
 import com.company.petclinic.model.Owner;
 import com.company.petclinic.repository.OwnerRepository;
 import com.company.petclinic.repository.PetRepository;
 import com.company.petclinic.repository.PetTypeRepository;
-import com.company.petclinic.services.OwnerService;
+import com.company.petclinic.service.OwnerService;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 

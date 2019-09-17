@@ -1,12 +1,15 @@
-package com.company.petclinic.services.springdatajpa;
+package com.company.petclinic.service.springdatajpa;
 
 import com.company.petclinic.model.Pet;
 import com.company.petclinic.repository.PetRepository;
-import com.company.petclinic.services.PetService;
+import com.company.petclinic.service.PetService;
+import org.springframework.context.annotation.Profile;
+import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
 import java.util.Set;
-
+@Service
+@Profile("sdj")
 public class PetSDJService implements PetService {
     private final PetRepository petRepository;
 
